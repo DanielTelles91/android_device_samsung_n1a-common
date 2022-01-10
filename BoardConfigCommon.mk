@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# Funciona no Lineage 18.1
 
 # Inherit from universal5420-common
 include device/samsung/universal5420-common/BoardConfigCommon.mk
