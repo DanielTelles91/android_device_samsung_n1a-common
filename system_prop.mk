@@ -14,14 +14,10 @@
 # limitations under the License.
 #
 
-# Dalvik Heap
+ # Otimização
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.heapstartsize=16m \
-    dalvik.vm.heapgrowthlimit=256m \
-    dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.heapminfree=512k \
-    dalvik.vm.heapmaxfree=8m
+    lockscreen.rot_override=true \
+    ro.config.hw_quickpoweron=true
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
